@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Instagram page of Diaco Trading ",
+      "image": "/ads/page1.webp",
+      "categories": [],
+      "type": "telegram",
+      "seen": 91
+    },
+    {
+      "id": 2,
+      "name": "Lyon's Twitter account ",
+      "image": "/ads/page2.webp",
+      "categories": [],
+      "type": "twitter",
+      "seen": 50
+    },
+    {
+      "id": 3,
+      "name": "Beauty Luxim's Instagram page",
+      "image": "/ads/page3.webp",
+      "categories": [],
+      "type": "instagram",
+      "seen": 29
+    },
+    {
+      "id": 4,
+      "name": "Entertainment telegram channel",
+      "image": "/ads/page4.webp",
+      "categories": [],
+      "type": "telegram",
+      "seen": 91
+    },
+    {
+      "id": 5,
+      "name": "Ita channel of entrepreneurial jihadists",
+      "image": "/ads/page5.webp",
+      "categories": [],
+      "type": "twitter",
+      "seen": 50
+    },
+    {
+      "id": 6,
+      "name": "Telegram channel of Radical magazine",
+      "image": "/ads/page6.webp",
+      "categories": [],
+      "type": "instagram",
+      "seen": 29
+    }
+  ]
+}

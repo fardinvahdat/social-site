@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev @nuxtjs/moment
+
+PATH: 
+  D:\Xampp2\htdocs\mymember\node_modules\.bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\iCLS\;C:\Program Files\Intel\TXE Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;"C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-10.0.2\bin";C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\App\Brackets\command;C:\Program Files (x86)\Rational\common;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\xampp-old\php;D:\App\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;D:\App\Microsoft VS Code\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;D:\python\Scripts\;D:\python\;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;D:\App\Quartus\app\modelsim_ase\win32aloem;C:\composer;C:\Program Files\Java\jdk-10.0.2\bin;C:\Program Files\Java\jre-10.0.2\bin;D:\Data3\Compressed\dart-sass;C:\Program Files\nodejs;D:\xampp-old\php-8;D:\xampp-old\php;C:\Users\Lenovo\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Xampp2\htdocs\mymember\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "nuxt-app",
+    "private": true,
+    "scripts": {
+      "build": "nuxt build",
+      "dev": "nuxt dev",
+      "generate": "nuxt generate",
+      "preview": "nuxt preview",
+      "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+      "@element-plus/nuxt": "^1.0.4",
+      "@nuxt/devtools": "latest",
+      "@nuxtjs/i18n": "^8.0.0-beta.12",
+      "@nuxtjs/moment": "^1.6.1",
+      "@types/node": "^18",
+      "autoprefixer": "^10.4.14",
+      "nuxt": "^3.5.2",
+      "postcss": "^8.4.23",
+      "sass": "^1.60.0",
+      "tailwindcss": "^3.3.2"
+    },
+    "dependencies": {
+      "@pinia/nuxt": "^0.4.9",
+      "apexcharts": "^3.40.0",
+      "element-plus": "^2.3.4",
+      "nuxt-swiper": "^1.1.0",
+      "vue3-apexcharts": "^1.4.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

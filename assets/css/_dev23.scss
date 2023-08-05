@@ -1,0 +1,138 @@
+body {
+  @apply min-h-screen bg-Gray-b8 m-auto;
+}
+
+//base tab
+
+.base-tab {
+  .header {
+    box-shadow: 0 0px 4px 4px rgba(0, 0, 0, 0.05);
+  }
+  .content {
+    a {
+      h3 {
+        @apply text-Gray-b2;
+      }
+      p {
+        @apply text-Gray-b3;
+      }
+      .package-count {
+        visibility: none;
+      }
+      transition: all 1s;
+      &:hover {
+        h3,
+        p {
+          @apply text-Gray-b9 visible;
+        }
+      }
+    }
+  }
+}
+
+//latest profiles
+
+.social-network-profile-preview {
+  box-shadow: 0 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+//slider arrow
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply flex-row-reverse bg-white max-w-[37px] min-w-[37px] max-h-[37px] h-[37px] rounded-full;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+//quick order
+
+.quick-order {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  ul.list {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    li {
+      @apply text-sm;
+    }
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+//landing header
+
+.header-container {
+  background: linear-gradient(270deg, #4684ff 5.07%, #614fff);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+//profile
+
+.el-input__wrapper {
+  @apply h-[50px] rounded-[10px] px-5 #{!important};
+}
+
+//tickets
+
+.new-ticket {
+  .text-area {
+    .el-textarea__inner {
+      @apply h-[150px] rounded-[10px] px-5 #{!important};
+    }
+  }
+}
+
+//transactions
+
+.transactions {
+  thead {
+    display: table-header-group;
+    @media (max-width: 850px) {
+      display: none;
+    }
+    tr {
+      th {
+        @apply px-[33px] pt-5 pb-4 text-base text-Gray-b2 font-medium;
+      }
+    }
+  }
+  tbody {
+    tr {
+      @media (max-width: 850px) {
+        @apply flex flex-col;
+      }
+      td {
+        @apply px-[33px] pt-5 pb-4 text-sm text-Gray-b3 font-normal text-center;
+        @media (max-width: 850px) {
+          @apply w-full flex justify-between;
+          &:not(:not([data-label])):before {
+            align-items: center;
+            content: attr(data-label);
+            display: flex;
+            word-break: normal;
+          }
+        }
+      }
+    }
+  }
+}

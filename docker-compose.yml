@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  voip-front:
+    container_name: socialsite-front
+    image: socialsite-front:latest
+    build: .
+    restart: unless-stopped
+    ports:
+      - "9000:3000"
